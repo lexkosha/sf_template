@@ -1,0 +1,1234 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    margin-top: 0;
+    background-color: #F6F2F2;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1249px;
+    min-width: 350px;
+    width: 98%;
+    height: 93px;
+    margin: 0 auto;
+    margin-top: 25.1px;  
+    background-color: #000;
+    opacity: 0.8;
+}
+
+hr{
+    max-width: 1251px;
+    height: 5px;
+    background: #ECECEC;
+    border: 0px;
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.top-menu{
+    display: flex;
+    padding-inline-start: 0;
+    min-width: 300px;
+    flex-wrap: wrap;   
+
+}
+
+
+.top-menu li{
+    /* display: flex;
+    flex-wrap: wrap; */
+    list-style-type: none;
+}
+
+.top-menu a{
+    padding: 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #E0E0E0;
+    
+}
+.top-menu a:hover{
+    background-color: #FF3F40;
+    
+    
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    background-color: #F6F2F2;
+    width: 100%;
+}
+
+.intro-box-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 101px;
+    max-width: 1253px;
+    text-align: center;
+}
+
+.intro-box-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+
+}
+
+.intro-box-one h1{
+    width: 100%;
+    min-width: 70%;
+    margin-top: 0;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.intro-box-one p{
+    font-size: 15.9953px;
+    line-height: 28px;
+}
+
+.intro-box-one a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 227px;
+    height: 55px;
+    font-size: 18.0412px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    color:#fff;
+    background-color: #FF2D2D;
+}
+.intro-box-two{
+    display: flex;
+    justify-content: center;
+    max-width: 50%;
+}
+.intro-box-two img{
+    width: 100%;
+    min-width: 70%;
+    margin-bottom: 10px;
+    background: rgba(0, 0, 0, 0.0001);
+
+}
+
+.box-two{
+    display: flex;
+    justify-content: center;
+    margin-top: 148px;
+    margin-bottom: 0;
+    width: 100%;
+
+}
+.box-two-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1253px;
+}
+.box-two-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.box-two-text h2{
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 55px;
+    margin-top: 0;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.box-two-text p{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: normal;
+    font-style: normal;
+    max-width: 80%;
+
+}
+
+.box-two-text button{
+    margin-top: 63px;
+    width: 230px;
+    height: 57px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 34px;
+    color: #FF2D2D;
+
+
+
+    background: rgba(0, 0, 0, 0.0001);
+    border: 2px solid #FF0000;
+    box-sizing: border-box;
+}
+
+.box-two-blocki{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.box-two-blocki div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+
+    margin-top: 0px;
+    margin-bottom: 52px;
+
+}
+
+.box-two-blocki img{
+    width: 44px;
+    height: 44px;
+    margin-bottom: 29px;
+}
+
+.box-two-blocki h5{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 0px;
+    margin-bottom: 13px;
+}
+
+.box-two-blocki p{
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 0px;
+    max-width: 90%;
+}
+
+.box-three{
+    display: flex;
+    justify-content: center;
+    margin-top: 104px;
+}
+
+.box-three-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1253px;
+}
+
+.box-three-text{
+    text-align: center;
+}
+
+.box-three-text h2{
+    font-weight: bold;
+    font-size: 42;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 0;
+}
+
+.box-three-content p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #000;
+}
+
+.hr-red{
+    width: 134px;
+    height: 5px;
+    border: 0px;
+    background-color: #FF2D2D;
+}
+
+.nav-gallery ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.nav-gallery li{
+    margin: 13.5px;
+}
+
+.nav-gallery a{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.22px;
+    color: #000;
+
+}
+
+.nav-gallery a:hover{
+    color: #FF2D2D;
+
+}
+
+/* картинки  */
+.project-img img{
+    width: 301px;
+    height: 293px;
+}
+
+.box-four{
+    display: flex;
+    justify-content: center;
+    margin-top: 122px;
+    
+}
+.box-four-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1253px;
+
+}
+.box-four-text{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.box-four-text h2{
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 0;
+    width: 373.85px;
+    letter-spacing: 0.3834px;
+    text-transform: uppercase;
+    color: #000;
+
+}
+
+.box-four-text p{
+    font-size: 15.99;
+    line-height: 28px;
+    margin-top: 34.52px;
+    margin-bottom: 0;
+    max-width: 478px;
+    
+}
+
+.box-four-text hr{
+    margin-left: 0;
+    margin-top: 37.48px;
+    margin-bottom: 0;
+    
+}
+
+
+.box-four-resume{
+    display: flex;
+    margin-top: 66px;
+
+}
+
+
+
+.four-resume-img img{
+    width: 324px;
+    height: 462px;
+    background-color: aquamarine;
+}
+
+.four-resume-text{
+    width: 100%;
+    margin-left: 72px;
+}
+
+.four-resume-text h3{
+    font-size: 30.12px;
+    font-weight: 600;
+    line-height: 0;
+    letter-spacing: 0.275265px;
+    text-transform: uppercase;
+}
+
+.four-resume-text p{
+    font-size: 15.99px;
+    line-height: 28px;
+    color: #000;
+}
+
+.four-resume-text ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 50%;
+    margin-top: 46.48px;
+    padding: 0;
+}
+
+.four-resume-text a{
+    font-size: 18px;
+    font-style: italic;
+    line-height: 24px;
+    letter-spacing: 0.9px;
+    color: #000;
+}
+
+.four-resume-preview{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 59px;
+}
+
+.four-resume-preview img{
+    width: 200px;
+    height: 217px;
+}
+
+.box-five{
+    display: flex;
+    justify-content: center;
+
+    background-color: #2C2C2C;
+    margin-top: 107px;
+}
+
+.box-five-content{
+    margin-top: 151px;
+
+}
+
+.box-five-text h2{
+    font-size: 42px;
+    line-height: 24px;
+    font-weight: bold;
+    letter-spacing: 1.05px;
+    color: #fff;
+}
+
+.box-five-text p{
+    text-align: center;
+    margin-top: 16.52;
+    font-size: 15.99px;
+    line-height: 28px;
+    color: #fff;
+}
+
+.subscribe{
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 56.92px;
+    margin-bottom: 141px;
+}
+
+.subscribe input[type = "email"]{
+    width: 524px;
+    height: 82px;
+    border: 0;
+    padding: 0;
+    border-radius: 4px;
+}
+
+
+
+.subscribe input[placeholder="Email Address..."]{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #2C2C2C;
+    padding-left: 38px;
+
+}
+
+.subscribe button{
+    width: 217px;
+    height: 82px;
+    border-radius: 4px;
+    background: #FF2D2D;
+    font-size: 17.90px;
+ 
+    font-weight: bold;
+    line-height: 34px;
+    letter-spacing: 0.317046px;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+.box-six{
+    display: flex;
+    justify-content: center;
+    margin-top: 104px;
+}
+
+.box-six-content{
+    width: 1253px;
+
+}
+.box-six-text{
+    width: 100%;
+}
+
+.box-six-text h2{
+    font-size: 41.98px;
+    font-weight: bold;
+    letter-spacing: 0.3834px;
+    text-transform: uppercase;
+    color: #000  
+}
+
+.box-six-text p{
+    font-size: 15.99px;
+    line-height: 28px;
+    width: 60%;
+    margin-top: 42.50px;
+    color: #000;
+}
+
+.box-six-text hr{
+    margin-left: 0;
+    margin-top: 58.48px;
+}
+
+.box-six-contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.six-contact_form{
+    display: flex;
+    margin-top: 73px;
+}
+
+.six-contact_form input{
+    
+    width: 342px;
+    height:71px;  
+    background: #000;
+    opacity: 0.1;
+}
+
+
+.six-contact_form input:nth-child(1){
+    margin-right: 51px;
+}
+
+.six-contact_form textarea{
+    width: 747px;
+    height: 252px;
+    margin-top: 43px;
+    background: #000;
+    opacity: 0.1;
+}
+
+.six-contact_form button{
+    margin-top: 43px;
+    width: 747px;
+    height:75px;
+    font-size: 17.9;
+    color: #fff;
+    line-height:34px;
+    font-weight: bold;
+    letter-spacing: 0.317046px;
+    text-transform: uppercase;
+    background-color: #FF3B3B;
+}
+.six-contact-info{
+    display: flex;
+
+    flex-direction: column;
+    color: #fff;
+    margin-top: 73px;
+    width: 580px;
+    margin-right: 0;
+    background-color: #2D2D2D;
+}
+
+.six-contact-info h3{
+    margin-left: 81px;
+    margin-top: 141.34px;
+
+}
+.six-contact-info p,a{
+    margin-left: 81px;
+    margin-top: 27px;
+
+}
+
+.six-contact-info a{
+    color: #fff;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #313030;
+    margin-top: 107px;
+
+}
+
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    width: 1580px;
+
+}
+
+footer p{
+
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 168px;
+    margin-top: 52px;
+    margin-bottom: 33px;
+    color: #888;
+
+}
+.social-icon{
+    margin-right: 168px;
+    margin-top: 47px;
+    margin-bottom: 31px;
+}
+.social-icon a{
+    margin-left: 0;
+}
+
+/* под разные экраны */
+/* @media screen and {
+    .intro-box-content{
+        margin-top: 20px;
+    }
+    .intro-box-one{
+        display: flex;
+        justify-content: center;
+        order: 2;
+        width: 80%;
+    }
+
+    .intro-box-one h1{
+        margin-top: 20px;
+        margin-bottom: 0;
+        font-size: 40px;
+        line-height: 40px;
+
+    }
+
+    .intro-box-one a{
+        margin-bottom: 10px;
+    }
+
+    .box-two{
+        margin-top: 20px;
+    }
+    .box-two-content{
+
+
+    }
+    .box-two-text{
+        width: 100%;
+    }
+
+} */
+
+@media (min-width: 601px) and (max-width: 900px){
+
+    .intro-box-content{
+        margin-top: 20px;
+    }
+    .intro-box-one{
+        display: flex;
+        justify-content: center;
+        order: 2;
+        width: 80%;
+    }
+    .intro-box-one h1{
+        margin-top: 20px;
+        margin-bottom: 0;
+        font-size: 35px;
+        line-height: 40px;
+
+    }
+    .intro-box-one a{
+        margin-bottom: 10px;
+    }
+
+    .box-two{
+        margin-top: 20px;
+    }
+    .box-two-text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .box-two-text h2{
+        font-size: 22px;
+    }
+
+    .box-two-text p{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .box-two-text button{
+        margin: 15px auto;
+
+    }
+
+    .box-two-blocki{
+        display: flex;
+
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .box-two-blocki div{
+        display: flex;
+        align-items: center;
+        width: 50%;
+    }
+    .hr_centr{
+        width: 100%;
+    }
+
+    .box-three{
+        margin-top: 40px;
+    }
+    .nav-gallery{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .nav-gallery ul{
+
+        padding: 0;
+    }
+    .nav-gallery li{
+        display: flex;
+        margin: 0 5px;
+    }
+    .nav-gallery a{
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+    }
+    .project-img{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .project-img img{
+        width: 45%;
+        height: 45%;
+        margin: 5px;
+    }
+    
+    .box-four{
+        margin: 30px;
+    }
+
+    .box-four-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .box-four-text h2{
+        font-size: 22px;
+    }
+
+    .box-four-text hr{
+        margin: 0 auto;
+        margin: 10px;
+
+    }
+    .box-four-resume{
+        flex-wrap: wrap;
+    }
+    .four-resume-img{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .four-resume-img img{
+
+        width: 50%;
+        height: 90%;
+    }
+
+    .four-resume-text{
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .four-resume-text p{
+        margin: 0 auto;
+        width: 90%;
+
+    }
+    .four-resume-text ul{
+        margin: 0 auto;
+        justify-content: space-around;
+        margin-top: 10px;
+
+    }
+
+    .four-resume-text a{
+        margin: 5px;
+
+    }
+    .four-resume-preview{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .four-resume-preview img{
+        width: 45%;
+        margin: 3px;
+    }
+
+    .box-five{
+        margin-top: 20px;
+    }
+    .box-five-content{
+        margin-top: 20px;
+    }
+    .box-five-text{
+        text-align: center;
+    }
+    .box-five-text h2{
+        font-size: 22px;
+    }
+    .subscribe{
+        margin-bottom: 10px;
+    }
+    .subscribe form{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .subscribe button{
+        margin: 5px auto;
+
+    }
+    .box-six{
+        margin-top: 20px;
+    }
+    .box-six-text{
+        text-align: center;
+    }
+    .box-six-text h2{
+        font-size: 22px;
+    }
+    .box-six-text p{
+        margin: 0 auto;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    .box-six-text hr{
+        margin: 0 auto;
+    }
+
+    .box-six-contact{
+        flex-wrap: wrap;
+
+    }
+    .six-contact_form input{
+        width: 80%;
+        max-width: 747px;
+        min-width: 340px;
+
+    }
+    .six-contact_form [type="text"]:nth-child(1){
+        margin: 0;
+    }
+    .six-contact_form form{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
+    #comment{
+        width: 80%;
+        max-width: 747px;
+        min-width: 340px;
+    }
+    .six-contact_form button{
+        width: 100%;
+        max-width: 500px;
+        min-width: 200px;
+    }
+    
+    .six-contact-info{
+        margin-top: 20px;
+        text-align: center;   
+        width: 100%;
+    }
+    
+    .six-contact-info h3{
+        margin-top: 20px;
+        margin: 10px auto;
+        
+    }
+    .six-contact-info p, a{
+        margin: 5px auto;
+
+    }
+
+    footer{
+        margin-top: 0;
+
+    }
+
+    .footer-box{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+
+
+    }
+    .social-icon{
+        display: flex;
+        width: 30%;
+        margin-right: 0;
+
+    }
+    footer p{
+        order: 2;
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+
+    }
+}
+
+@media (min-width: 350px) and (max-width: 600px){
+    header nav{
+
+        min-width: 100%;
+        height: 177px;
+    }
+    .top-menu li{
+        display: flex;
+        justify-content: center;
+
+        width: 100%;
+
+    }
+    .top-menu a{
+        padding: 5px;
+    }
+
+    .intro-box-content{
+        margin-top: 20px;
+    }
+    .intro-box-one{
+        display: flex;
+        justify-content: center;
+        order: 2;
+        width: 80%;
+    }
+    .intro-box-one h1{
+        margin-top: 20px;
+        margin-bottom: 0;
+        font-size: 25px;
+        line-height: 40px;
+
+    }
+    .intro-box-one a{
+        margin-bottom: 10px;
+    }
+
+    .box-two{
+        margin-top: 20px;
+    }
+    .box-two-text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .box-two-text h2{
+        font-size: 22px;
+    }
+
+    .box-two-text p{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .box-two-text button{
+        margin: 15px auto;
+
+    }
+
+    .box-two-blocki{
+        display: flex;
+
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .box-two-blocki div{
+        display: flex;
+        align-items: center;
+        width: 50%;
+    }
+    .hr_centr{
+        width: 100%;
+    }
+
+    .box-three{
+        margin-top: 40px;
+    }
+    .nav-gallery{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .nav-gallery ul{
+
+        padding: 0;
+    }
+    .nav-gallery li{
+        display: flex;
+        margin: 0 5px;
+    }
+    .nav-gallery a{
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+    }
+    .project-img{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .project-img img{
+        width: 45%;
+        height: 45%;
+        margin: 5px;
+    }
+    
+    .box-four{
+        width: 100%;
+    }
+    .box-four-content{
+        width: 100%;
+    }
+
+    .box-four-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .box-four-text h2{
+        font-size: 22px;
+    }
+    .box-four-text p {
+        width: 90%;
+    }
+
+    .box-four-text hr{
+        margin: 0 auto;
+        margin: 10px;
+
+    }
+    .box-four-resume{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .four-resume-img{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        min-width: 75%;
+        max-width: 90%;
+    }
+    .four-resume-img img{
+
+        width: 50%;
+        height: 90%;
+    }
+
+    .four-resume-text{
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+    }
+    .four-resume-text h3{
+        width: 100%;
+
+    }
+
+    .four-resume-text p{
+        margin: 0 auto;
+        width: 90%;
+
+    }
+    .four-resume-text ul{
+        margin: 0 auto;
+        justify-content: space-around;
+        margin-top: 10px;
+
+    }
+
+    .four-resume-text a{
+        margin: 5px;
+
+    }
+    .four-resume-preview{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .four-resume-preview img{
+        width: 42%;
+        margin: 3px;
+    }
+
+    .box-five{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .box-five-content{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .box-five-text{
+        text-align: center;
+    }
+    .box-five-text h2{
+        font-size: 20px;
+    }
+    .subscribe{
+        margin-bottom: 10px;
+    }
+    .subscribe form{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .subscribe input[type = "email"] {
+        width: 100%;
+        margin:0 10px;
+    }
+    .subscribe button{
+        margin: 5px auto;
+
+    }
+    .box-six{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .box-six-content{
+        width: 100%;
+    }
+    .box-six-text{
+        text-align: center;
+    }
+    .box-six-text h2{
+        font-size: 22px;
+    }
+    .box-six-text p{
+        margin: 0 auto;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    .box-six-text hr{
+        margin: 0 auto;
+    }
+
+    .box-six-contact{
+        flex-wrap: wrap;
+
+    }
+    .six-contact_form input{
+        width: 80%;
+        max-width: 747px;
+        min-width: 88%;
+
+    }
+    .six-contact_form [type="text"]:nth-child(1){
+        margin: 0;
+    }
+    .six-contact_form form{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
+    #comment{
+        width: 80%;
+        max-width: 747px;
+        min-width: 88%;
+    }
+    .six-contact_form button{
+        width: 90%;
+        max-width: 500px;
+        min-width: 88%;
+    }
+    
+    .six-contact-info{
+        margin-top: 20px;
+        text-align: center;
+        
+    }
+    .six-contact-info h3{
+        margin-top: 20px;
+        margin: 10px auto;
+        
+    }
+    .six-contact-info p, a{
+        margin: 5px auto;
+
+    }
+
+    footer{
+        margin-top: 0;
+
+    }
+
+    .footer-box{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+
+
+    }
+    .social-icon{
+        display: flex;
+        width: 30%;
+        margin-right: 0;
+
+    }
+    footer p{
+        order: 2;
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+
+    }
+
+}
